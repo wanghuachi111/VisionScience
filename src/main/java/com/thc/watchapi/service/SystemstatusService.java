@@ -163,6 +163,7 @@ public class SystemstatusService {
 
         Double fangcha = Math.sqrt(numfangcha);
         DataDTO dataDTO = new DataDTO();
+        dataDTO.setList(systemstatusList);
         dataDTO.setAverage(averageNiuju);
         dataDTO.setFangcha(fangcha);
         dataDTO.setMax(maxNiuju);
@@ -205,6 +206,7 @@ public class SystemstatusService {
 
         Double fangcha = Math.sqrt(numfangcha);
         DataDTO dataDTO = new DataDTO();
+        dataDTO.setList(systemstatusList);
         dataDTO.setAverage(averageQinJiao);
         dataDTO.setFangcha(fangcha);
         dataDTO.setMax(maxQinJiao);
@@ -248,6 +250,7 @@ public class SystemstatusService {
 
         Double fangcha = Math.sqrt(numfangcha);
         DataDTO dataDTO = new DataDTO();
+        dataDTO.setList(systemstatusList);
         dataDTO.setAverage(averageQinJiao);
         dataDTO.setFangcha(fangcha);
         dataDTO.setMax(maxQinJiao);

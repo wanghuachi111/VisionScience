@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 
 import com.thc.watchapi.dto.WeiyiDTO;
 
+import com.thc.watchapi.exception.MyException;
 import com.thc.watchapi.mapper.WeiyivalueMapper;
 
 import com.thc.watchapi.model.Weiyivalue;
@@ -39,6 +40,10 @@ public class WeiyivalueService {
             wrapper.between("DateTime", startTime, endTime).orderByAsc("ID");
         }
         List<Weiyivalue> weiyivalueList = weiyivalueMapper.selectList(wrapper);
+        if (weiyivalueList.isEmpty()) {
+            throw new MyException(400,"时间段内无数据");
+        }
+        System.out.println(weiyivalueList);
 
         Double average1;
         Double average2;
