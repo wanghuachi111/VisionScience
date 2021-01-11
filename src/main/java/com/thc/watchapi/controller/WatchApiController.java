@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  * @date 2020/11/13 5:25 下午
  */
-@Api(tags = "网关api调用")
-@RestController
-@RequestMapping("/api/v1/web/watchapi")
+//@Api(tags = "网关api调用")
+//@RestController
+//@RequestMapping("/api/v1/web/watchapi")
 public class WatchApiController {
 
     @Autowired

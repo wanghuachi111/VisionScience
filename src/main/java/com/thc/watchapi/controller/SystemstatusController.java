@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api("转角转速表")
+@Api(tags = "可视化科研-系统参数表")
 @RestController
 @RequestMapping("/system")
 public class SystemstatusController {

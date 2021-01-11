@@ -18,9 +18,9 @@ import java.util.Map;
  * @Description:
  * @date 2020/11/12 6:05 下午
  */
-@Api("后台管理员登录")
-@RestController
-@RequestMapping("/api/v1/web/login")
+////@Api("后台管理员登录")
+//@RestController
+//@RequestMapping("/api/v1/web/login")
 public class LoginController {
 
     @Autowired

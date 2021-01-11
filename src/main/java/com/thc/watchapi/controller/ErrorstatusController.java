@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api("异常状态表")
+@Api(tags = "可视化科研-异常状态表")
 @RestController
-@RequestMapping("/error")
+@RequestMapping("/yichang")
 public class ErrorstatusController {
 
     @Autowired

@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.*;
  * @Date: 2020/11/20 20:03
  * @Version: 1.0
  */
-@Api(tags = "教员管理")
-@RestController
-@RequestMapping("/api/v1/web/teacher")
+////@Api(tags = "教员管理")
+//@RestController
+//@RequestMapping("/api/v1/web/teacher")
 public class TeacherController {
 
     @Autowired

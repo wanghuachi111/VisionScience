@@ -21,8 +21,8 @@ import java.util.List;
  * @Description:
  * @date 2020/11/15 2:45 下午
  */
-@RestController
-@RequestMapping("/api/v1/web/test")
+//@RestController
+//@RequestMapping("/api/v1/web/test")
 public class TestController {
     @Autowired
     private StudentMapper studentMapper;

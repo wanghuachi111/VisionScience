@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(value = "压力表查询")
+@Api(tags = "可视化科研-压力表查询")
 @RestController
 @RequestMapping("/airbag")
 public class AirbagvalueController {

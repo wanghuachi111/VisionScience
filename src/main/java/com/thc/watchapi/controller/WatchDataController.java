@@ -22,16 +22,16 @@ import java.util.List;
  * @Description:
  * @date 2020/11/17 2:35 下午
  */
-@Api(tags = "手表数据处理")
-@RestController
-@RequestMapping("/api/v1/web/watchdata")
+//@Api(tags = "手表数据处理")
+//@RestController
+//@RequestMapping("/api/v1/web/watchdata")
 public class WatchDataController {
 
     @Autowired
     private WatchDataService watchDataService;
 
     // TODO 将startTime和endTime的require设为false
-    // TODO 总时间 距离 
+    // TODO 总时间 距离
 //    @ApiImplicitParams({
 //            @ApiImplicitParam(name="startTime",value="查询的起始时间",required=false, paramType="query", defaultValue = "2020-11-17 16:11:28"),
 //            @ApiImplicitParam(name="endTime",value="查询的结束时间",required=false, paramType="query", defaultValue = "2020-11-17 16:11:37"),

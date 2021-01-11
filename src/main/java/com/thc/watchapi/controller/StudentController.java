@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.*;
  * @Description:
  * @date 2020/11/19 11:23 上午
  */
-@Api(tags = "学员管理")
-@RestController
-@RequestMapping("/api/v1/web/student")
+//@Api(tags = "学员管理")
+//@RestController
+//@RequestMapping("/api/v1/web/student")
 public class StudentController {
 
     @Autowired
